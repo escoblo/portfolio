@@ -1,0 +1,68 @@
+body {
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111827;
+    color:white;
+}
+
+
+.container {
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+
+h1 {
+    font-size:50px;
+}
+
+
+section {
+    margin-top:50px;
+}
+
+
+.cards {
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+
+.cards div,
+.project {
+    background:#1f2937;
+    padding:20px;
+    border-radius:12px;
+}
+
+
+form {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+input,
+textarea {
+    padding:15px;
+    border-radius:8px;
+    border:none;
+}
+
+
+textarea {
+    height:120px;
+}
+
+
+button {
+    padding:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
