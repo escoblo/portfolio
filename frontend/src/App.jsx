@@ -28,7 +28,7 @@ function App() {
     <div className="container">
 
       <header>
-        <h1>Octave Dev</h1>
+        <h1>AeroCode</h1>
         <p>Développeur Web Full-Stack</p>
       </header>
 
